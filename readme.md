@@ -7,7 +7,6 @@
 ## 技术栈
 
 ### 后端 (Go)
-
 - **框架**: Gin (Web 框架)
 - **ORM**: GORM
 - **数据库**: MySQL 8.0
@@ -16,14 +15,12 @@
 - **认证**: JWT
 
 ### 前端
-
 - **框架**: Vue.js 3
 - **UI**: Element Plus
 - **HTTP**: Axios
 - **构建**: Vite
 
 ### 基础设施
-
 - **容器化**: Docker + Docker Compose
 - **反向代理**: Nginx
 
@@ -169,41 +166,41 @@ file-share-system/
 
 ### 用户模块
 
-| 接口                      | 方法         | 说明 |
-| ------------------------- | ------------ | ---- |
-| `POST /api/user/register` | 注册         |      |
-| `POST /api/user/login`    | 登录         |      |
-| `GET /api/user/info`      | 获取用户信息 |      |
+| 接口 | 方法 | 说明 |
+|------|------|------|
+| `POST /api/user/register` | 注册 |
+| `POST /api/user/login` | 登录 |
+| `GET /api/user/info` | 获取用户信息 |
 
 ### 文件模块
 
-| 接口                               | 方法           | 说明 |
-| ---------------------------------- | -------------- | ---- |
-| `POST /api/file/upload`            | 上传文件       |      |
-| `POST /api/file/upload/init`       | 分片上传初始化 |      |
-| `POST /api/file/upload/chunk`      | 上传分片       |      |
-| `POST /api/file/upload/complete`   | 完成分片上传   |      |
-| `GET /api/file/list`               | 文件列表       |      |
-| `GET /api/file/:fileUuid`          | 文件详情       |      |
-| `GET /api/file/download/:fileUuid` | 下载文件       |      |
-| `DELETE /api/file/:fileUuid`       | 删除文件       |      |
+| 接口 | 方法 | 说明 |
+|------|------|------|
+| `POST /api/file/upload` | 上传文件 |
+| `POST /api/file/upload/init` | 分片上传初始化 |
+| `POST /api/file/upload/chunk` | 上传分片 |
+| `POST /api/file/upload/complete` | 完成分片上传 |
+| `GET /api/file/list` | 文件列表 |
+| `GET /api/file/:fileUuid` | 文件详情 |
+| `GET /api/file/download/:fileUuid` | 下载文件 |
+| `DELETE /api/file/:fileUuid` | 删除文件 |
 
 ### 文件夹模块
 
-| 接口                                  | 方法       | 说明 |
-| ------------------------------------- | ---------- | ---- |
-| `POST /api/file/folder`               | 创建文件夹 |      |
-| `GET /api/file/folder/list`           | 文件夹列表 |      |
-| `DELETE /api/file/folder/:folderUuid` | 删除文件夹 |      |
+| 接口 | 方法 | 说明 |
+|------|------|------|
+| `POST /api/file/folder` | 创建文件夹 |
+| `GET /api/file/folder/list` | 文件夹列表 |
+| `DELETE /api/file/folder/:folderUuid` | 删除文件夹 |
 
 ### 分享模块
 
-| 接口                           | 方法     | 说明 |
-| ------------------------------ | -------- | ---- |
-| `POST /api/share`              | 创建分享 |      |
-| `GET /share/:shareUuid`        | 访问分享 |      |
-| `GET /api/share/my`            | 我的分享 |      |
-| `DELETE /api/share/:shareUuid` | 删除分享 |      |
+| 接口 | 方法 | 说明 |
+|------|------|------|
+| `POST /api/share` | 创建分享 |
+| `GET /share/:shareUuid` | 访问分享 |
+| `GET /api/share/my` | 我的分享 |
+| `DELETE /api/share/:shareUuid` | 删除分享 |
 
 ## License
 

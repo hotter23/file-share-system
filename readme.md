@@ -203,6 +203,7 @@ file-share-system/
 | `GET /api/share/my` | 我的分享 |
 | `DELETE /api/share/:shareUuid` | 删除分享 |
 
-## License
+## 支持我
+如果您觉得这个项目对您有帮助，您可以扫描以下二维码进行捐赠：
 
-MIT License
+<img width="828" height="1124" alt="2757ca9078c29ccc3ced920bebd28061" src="https://github.com/user-attachments/assets/aaaa38f0-2841-4f1f-8653-c67f5f803186" />
